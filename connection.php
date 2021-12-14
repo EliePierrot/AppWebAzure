@@ -1,7 +1,7 @@
 <?php
 
 // Connection à la base
-$connection = mysqli_connect('localhost','root','');
+$connection = mysqli_connect('kikimbappe','epierrot002','');
 
 if (!$connection){
 	echo "Connection a mysql impossible";
