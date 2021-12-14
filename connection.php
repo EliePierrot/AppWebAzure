@@ -1,7 +1,7 @@
 <?php
 
 // Connection à la base
-$connection = mysqli_connect('kikimbappe.mysql.database.azure.com','epierrot002@kikimbappe','Lecumberry64');
+$connection = mysqli_connect('kikimbappe.mysql.database.azure.com','epierrot002@kikimbappe','Lecumberry64')
 
 //$connection=new PDO( 'host=kikimbappe.mysql.database.azure.com;dbName=easytickets','epierrot002@kikimbappe','Lecumberry64');
 
