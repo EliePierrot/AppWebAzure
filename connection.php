@@ -3,7 +3,7 @@
 // Connection à la base
 //$connection = mysqli_connect('kikimbappe','epierrot002','Lecumberry64');
 
-$connection=new PDO(dbName='easytickets' host='kikimbappe.mysql.database.azure.com','epierrot002@kikimbappe','Lecumberry64');
+$connection=new PDO( 'host=kikimbappe.mysql.database.azure.com;dbName=easytickets','epierrot002@kikimbappe','Lecumberry64');
 
 
 if (!$connection){
