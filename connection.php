@@ -1,7 +1,7 @@
 <?php
 
 // Connection à la base
-$connection = mysqli_connect('kikimbappe.mysql.database.azure.com','epierrot002@kikimbappe
+$connection = mysqli_connect('kikimbappe.mysql.database.azure.com','epierrot002
 ','Lecumberry64');
 
 if (!$connection){
