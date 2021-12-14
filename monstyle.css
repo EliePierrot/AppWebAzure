@@ -1,0 +1,80 @@
+/*
+img{
+
+width: 85px;
+
+height: 85px;
+
+}
+head{
+  background-color: #E55731;
+  }*/
+
+  body {
+    font-family: Georgia, "Times New Roman",
+    Times, serif;
+    color: black;
+    background-color: #D4533F; }
+
+    h1 {
+      font-family: Helvetica, Geneva, Arial,
+      SunSans-Regular, sans-serif;
+      font-style: italic;
+      border:1px solid red;
+      padding:0.5px; 
+
+      border: thick double #FFC500;
+      color: black;
+    }
+
+    td,th {
+      border: solid red;
+      color: black;
+    }
+
+    p {
+      font-family: Helvetica, Geneva, Arial,
+      SunSans-Regular, sans-serif;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+
+    }
+
+
+    :focus:required:invalid {
+      background: pink ;
+    }
+
+
+    a {
+      color: white;/*#2655A0;*/
+    }
+
+
+    a:link {
+      text-decoration:none;
+    }
+
+    a:visited {
+
+    }
+
+    a:focus {
+
+    }
+
+    a:hover {
+      color: yellow;
+    }
+
+    a:active {
+
+    }
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
