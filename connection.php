@@ -1,8 +1,7 @@
 <?php
 
 // Connection à la base
-$connection = mysqli_connect('kikimbappe.mysql.database.azure.com','epierrot002
-','Lecumberry64');
+$connection = mysqli_connect('kikimbappe','epierrot002','Lecumberry64');
 
 if (!$connection){
 	echo "Connection a mysql impossible";
